@@ -23,36 +23,70 @@
                 <div class="col-xs-12 col-sm-2 col-md-2">
                 </div>
                 <div class="col-xs-12 col-sm-8 col-md-8 text-center">
-                    <p>Choose side:</p>
-                    <span>X</span>
-                    <input id="inputX" type="radio">
-                    <span>O</span>
-                    <input id="inputO" type="radio">
- 
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td class="td" id="a1"></td>
-                                <td class="td" id="b1"></td>
-                                <td class="td" id="c1"></td>
-                            </tr>
-                            <tr>
-                                <td class="td" id="a2"></td>
-                                <td class="td" id="b2"></td>
-                                <td class="td" id="c2"></td>
-                            </tr>
-                            <tr>
-                                <td class="td" id="a3"></td>
-                                <td class="td" id="b3"></td>
-                                <td class="td" id="c3"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <button id="infoButton" class="btn btn-default" >info</button>
-                    <p id="currentPlayer"></p>
+                    <div id="game">
+                        <p id="displayWinner"></p>
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td class="td" id="a1"></td>
+                                    <td class="td" id="b1"></td>
+                                    <td class="td" id="c1"></td>
+                                </tr>
+                                <tr>
+                                    <td class="td" id="a2"></td>
+                                    <td class="td" id="b2"></td>
+                                    <td class="td" id="c2"></td>
+                                </tr>
+                                <tr>
+                                    <td class="td" id="a3"></td>
+                                    <td class="td" id="b3"></td>
+                                    <td class="td" id="c3"></td>
+                                </tr>
+                            </tbody>
+                        </table><button id="infoButton" class="btn btn-default">info</button>
+                        <p id="currentPlayer"></p>
+                        <p id="restartCounter"></p>
+
+
+                    </div>
+                    <div id="modal">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <h4>Welcome to my first game: Tic Tac Toe</h4>
+                                <p>Choose side:</p>
+                            </div>
+                        </div>
+
+                        <div class "row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+                                <p id="inputX" class="text-center">X</p>
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                                <p id="inputO" class="text-center">O</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="draw">
+                       <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-12">
+                                <p>Draw!</p>
+                                <h4>Game ended...</h4>
+                                <p>Restarting in: <span id="countdown"></span></p>
+                            </div>
+                        </div>
+
+                        <div class "row">
+                            <div class="col-xs-6 col-sm-6 col-md-6 text-center">
+                            </div>
+
+                            <div class="col-xs-6 col-sm-6 col-md-6">
+                            </div>
+                        </div>   
+                    </div>
                 </div>
                 <div class="col-xs-12 col-sm-2 col-md-2">
-               
+
                 </div>
 
             </div>

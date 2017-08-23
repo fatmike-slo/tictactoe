@@ -3,15 +3,50 @@ body {
     background: #000;
     font-size: 4em;
     font-family: 'Saira Condensed', sans-serif;
-/* header */
+
 }
-input {
-    height: 30px;
+/* modal */
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+     margin-top: 200px;
+    font-size:2em;
 }
 
+/* header */
+#inputX {
+    background-color: red;
+    border-radius:100%;
+    width:100px;
+    margin:0 auto;
+}
+#inputX:hover {
+    background-color: green;
+    transition: background 0.5s;
+}
+
+#inputO {
+    background-color: red;
+    border-radius:100%;
+    width:100px;
+    margin:0 auto;    
+}
+#inputO:hover {
+    background-color: green;
+    transition: background 0.5s;
+}
 
 
 /* table onward */
+#game {
+    margin-top:100px;
+}
 table {
     margin-top:10px;
     height: 375px;
@@ -66,4 +101,32 @@ td {
 
 #c3 {
     border-left: 1px solid #fff;
+}
+
+/* draw result */
+
+#draw {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+     margin-top: 150px;
+    font-size:2em;
+}
+
+#win {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+     margin-top: 150px;
+    font-size:2em;
 }

@@ -15,42 +15,45 @@ body {
     width: 100%;
     height: 100%;
     overflow: auto;
-     margin-top: 200px;
+    margin-top: 150px;
     font-size:2em;
 }
 
 /* header */
 #inputX {
-    background-color: red;
+    background-color: #e60000;
     border-radius:100%;
     width:100px;
-    margin:0 auto;
+    float:right;
+    margin-right:30px;
 }
 #inputX:hover {
-    background-color: green;
+    background-color: #4d9900;
     transition: background 0.5s;
 }
 
 #inputO {
-    background-color: red;
+    background-color: #e60000;
     border-radius:100%;
     width:100px;
-    margin:0 auto;    
+    float:left;
+    margin-left:30px;    
 }
 #inputO:hover {
-    background-color: green;
+    background-color: #4d9900;
     transition: background 0.5s;
 }
 
 
 /* table onward */
 #game {
-    margin-top:100px;
+    margin-top:120px;
 }
 table {
+    margin: 0 auto;
     margin-top:10px;
-    height: 375px;
-    width: 375px;
+    height: 365px;
+    width: 365px;
 }
 
 td {
@@ -114,7 +117,7 @@ td {
     width: 100%;
     height: 100%;
     overflow: auto;
-     margin-top: 150px;
+    margin-top: 150px;
     font-size:2em;
 }
 
@@ -127,6 +130,6 @@ td {
     width: 100%;
     height: 100%;
     overflow: auto;
-     margin-top: 150px;
+    margin-top: 150px;
     font-size:2em;
 }
